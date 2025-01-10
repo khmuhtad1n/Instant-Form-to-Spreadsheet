@@ -25,7 +25,7 @@ Automatically capture and store Meta (Facebook) Instant Form leads in Google She
 ### 2. Google Apps Script Setup
 
 1. In your Google Spreadsheet, go to Tools > Script editor
-2. Copy and paste the code from `src/Code.gs`
+2. Copy and paste the code from `Code.gs`
 3. Replace `ENTER_YOUR_SPREADSHEET_ID` with your actual spreadsheet ID
 4. Run the `setupSheet()` function to initialize the headers
 5. Deploy as web app:
@@ -42,18 +42,6 @@ Automatically capture and store Meta (Facebook) Instant Form leads in Google She
 4. Enter the Google Apps Script web app URL
 5. Complete webhook verification
 6. Select the pages and forms to connect
-
-## Code Structure
-
-```
-├── src/
-│   └── Code.gs          # Main Google Apps Script code
-├── docs/
-│   ├── SETUP.md         # Detailed setup instructions
-│   └── TROUBLESHOOTING.md # Common issues and solutions
-├── LICENSE
-└── README.md
-```
 
 ## Implementation Details
 
@@ -82,7 +70,7 @@ The script creates the following columns in your spreadsheet:
 
 ## Troubleshooting
 
-See `docs/TROUBLESHOOTING.md` for common issues and solutions.
+See `TROUBLESHOOTING.md` for common issues and solutions.
 
 ## Contributing
 
